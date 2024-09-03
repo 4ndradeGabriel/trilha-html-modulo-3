@@ -1,44 +1,578 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <link rel="icon" href="/assets/images/favicon.ico">
+    <title>The Bear (série de televisão) – Wikipédia, a enciclopédia livre</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+    <div class="header">
+        <div class="headerStart">
+            <div class="menu-dropdown">
+                <label class="menu-icon-container" href="logo-icon">
+                    <span class="menu-icon vector-icon"></span>
+                </label>
+            </div>
+            <div class="header-logo">
+                <img class="header-logo-icon" src="/assets/images/logo.png" alt="">
+                <span class="logo-container">
+                    <img class="logo-wordmark" src="/assets/images/logo-wordmark.svg" alt="">
+                    <img class="logo-tagline" src="/assets/images/logo-tagline.svg" alt="">
+                </span>
+            </div>
+        </div>
+        <div class="headerEnd">
+            <div class="header-search">
+                <div class="head-search">
+                    <form action="" id="searchform" class="search-input">
+                        <div id="simpleSearch" class="search-input_">
+                            <div class="cdx-text-input cdx-text-input--has-start-icon">
+                                <input class="cdx-text-input__input" type="search" name="search"
+                                    placeholder="Pesquisar na Wikipédia" aria-label="Pesquisar na Wikipédia"
+                                    autocapitalize="sentences" title="Pesquisar na Wikipédia [Alt+Shift+f]"
+                                    accesskey="f" id="searchInput" autocomplete="off">
+                                <span class="cdx-text-input__icon vector-icon"></span>
+                            </div>
+                            <input type="hidden" name="title" value="Especial:Pesquisar">
+                        </div>
+                        <button class="cdx-button cdx-search-input__end-button">Pesquisar</button>
+                    </form>
+                </div>
+
+                <nav class="user-links">
+                    <div class="user-links-main">
+                    </div>
+                    <ul class="menu-content-list">
+                        <li class="createaccount">
+                            <a href="#"
+                                title="É encorajado a criar uma conta e iniciar sessão; no entanto, não é obrigatório"
+                                class=""><span>Criar uma conta</span>
+                            </a>
+                        </li>
+                        <li class="login">
+                            <a href="#"
+                                title="Aconselhamos-lhe a criar uma conta na Wikipédia, embora tal não seja obrigatório. [Alt+Shift+o]"
+                                accesskey="o" class=""><span>Entrar</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="menu-dropdown">
+                        <span class="menu-dropdown-button vector-icon"></span>
+                    </div>
+                </nav>
+            </div>
         </div>
     </div>
 
-    <div class="bar"></div>
-
-    <div class="content">
+    <main class="content">
         <div class="sidebar">
-            <h2>Título</h2>
+            <h2>Conteúdo</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="#Início" style="font-weight: bold;  color: #dadce0;">Início</a></li>
+                <li><a href="#Sinopse">Sinopse</a></li>
+                <li>
+                    <a href="#Elenco">Elenco</a>
+                    <span id="toggleElencoIcon" class="vector-icon" style="cursor: pointer;"></span>
+                    <ul id="elencoList" class="collapse">
+                        <li><a href="#Principal">Principal</a></li>
+                        <li><a href="#Recorrente">Recorrente</a></li>
+                        <li><a href="#Estrelas_Convidadas">Estrelas Convidadas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Lançamento">Lançamento</a></li>
+                <li><a href="#Música">Música</a></li>
+                <li><a href="#Recepção">Recepção</a></li>
+                <li><a href="#Referências">Referências</a></li>
+                <li><a href="#Ligações_externas">Ligações externas</a></li>
+            </ul>
+
+        </div>
+
+        <article class="main">
+
+            <header id="Início" class="bodyHeader">
+                <h1 class="inicio" style="font-size: 2rem;">The Bear (série de Televisão)</h1>
+            </header>
+
+            <section class="infotable">
+                <table class="infobox infobox_v2" cellpadding="3" style="width: 265px; font-size: 88%;">
+
+                    <tbody>
+                        <tr>
+                            <th colspan="2" class="topo televisao2"
+                                style="font-size:1.5em; background-color:#101418; color:#dadce0; font-style:italic; padding:0px; text-align:center;">
+                                <span class="">The Bear</span>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align:center; background-color:#101418; padding:2px;">
+                                <small><i>O
+                                        Urso</i>&nbsp;(<a href="#" title="Brasil">BR</a>)</small>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align:center;">
+                                <div style="padding-bottom: 5px;">
+                                    <figure class="mw-halign-center" typeof="mw:File"><a
+                                            href="//upload.wikimedia.org/wikipedia/pt/thumb/a/af/The_Bear_%28s%C3%A9rie_de_televis%C3%A3o%29.png/200px-The_Bear_%28s%C3%A9rie_de_televis%C3%A3o%29.png"
+                                            class="mw-file-description" title="The Bear (série de televisão)"><img
+                                                alt=""
+                                                src="//upload.wikimedia.org/wikipedia/pt/thumb/a/af/The_Bear_%28s%C3%A9rie_de_televis%C3%A3o%29.png/200px-The_Bear_%28s%C3%A9rie_de_televis%C3%A3o%29.png"
+                                                decoding="async" width="200" height="295" class="mw-file-element"
+                                                srcset="//upload.wikimedia.org/wikipedia/pt/a/af/The_Bear_%28s%C3%A9rie_de_televis%C3%A3o%29.png 1.5x"
+                                                data-file-width="250" data-file-height="369"></a>
+                                        <figcaption>The Bear (série de televisão)</figcaption>
+                                    </figure>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align:center; background-color:#101418; padding:2px;">
+                                Informação
+                                geral
+                            </th>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">Formato
+                            </td>
+                            <td style="vertical-align: top; text-align: left;"><a href="#"
+                                    title="Série de televisão">série</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">Gênero
+                            </td>
+                            <td style="vertical-align: top; text-align: left;"><a href="#"
+                                    title="Comédia dramática">Comédia
+                                    dramática</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">Duração
+                            </td>
+                            <td style="vertical-align: top; text-align: left;">20–66 minutos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">
+                                Criador(es)
+                            </td>
+                            <td style="vertical-align: top; text-align: left;">Christopher Storer
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">Elenco
+                            </td>
+                            <td style="vertical-align: top; text-align: left;">
+                                <div class="plainlist" style="margin-left: 0em;">
+                                    <ul>
+                                        <li><a href="#" title="Jeremy Allen White">Jeremy Allen
+                                                White</a></li>
+                                        <li><a href="#" title="Ebon Moss-Bachrach">Ebon
+                                                Moss-Bachrach</a></li>
+                                        <li><a href="#" title="Ayo Edebiri">Ayo Edebiri</a></li>
+                                        <li><a href="#" class="mw-redirect" title="Lionel Boyce">Lionel
+                                                Boyce</a></li>
+                                        <li>Liza Colón-Zayas</li>
+                                        <li><a href="#" title="Abby Elliott">Abby Elliott</a></li>
+                                        <li>Matty Matheson</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">País de
+                                origem
+                            </td>
+                            <td style="vertical-align: top; text-align: left;"><a href="#"
+                                    title="Estados Unidos">Estados
+                                    Unidos</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">Idioma
+                                original
+                            </td>
+                            <td style="vertical-align: top; text-align: left;"><a href="#"
+                                    title="Língua inglesa">inglês</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">
+                                Temporadas
+                            </td>
+                            <td style="vertical-align: top; text-align: left;">3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">
+                                Episódios
+                            </td>
+                            <td style="vertical-align: top; text-align: left;">28<span style="font-size:85%;">
+                                    <b>(<a href="#Episódios">lista de episódios</a>)</b></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align:center; background-color:#101418; padding:2px;">
+                                Produção
+                            </th>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">
+                                Produtor(es)
+                                executivo(s)
+                            </td>
+                            <td style="vertical-align: top; text-align: left;">
+                                <div class="plainlist" style="margin-left: 0em;">
+                                    <ul>
+                                        <li>Christopher Storer</li>
+                                        <li>Joanna Calo</li>
+                                        <li>Josh Senior</li>
+                                        <li>Hiro Murai</li>
+                                        <li>Nate Matteson</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">
+                                Empresa(s)
+                                produtora(s)
+                            </td>
+                            <td style="vertical-align: top; text-align: left;"><a href="#" title="FX Productions">FX
+                                    Productions</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2" style="text-align:center; background-color:#101418; padding:2px;">
+                                Exibição
+                            </th>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">
+                                Emissora
+                                original
+                            </td>
+                            <td style="vertical-align: top; text-align: left;"><a href="#" title="FX on Hulu">FX on
+                                    Hulu</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">
+                                Distribuição
+                            </td>
+                            <td style="vertical-align: top; text-align: left;"><a href="#"
+                                    title="Disney Platform Distribution">Disney Platform Distribution</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="vertical-align: top; text-align: left; font-weight:bold;">
+                                Transmissão
+                                original
+                            </td>
+                            <td style="vertical-align: top; text-align: left;">23 de junho de 2022 – presente
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <p><i><b>The Bear</b></i> (brasil: <i><b>O Urso</b></i>) é uma série de televisão de comédia dramática
+                americana criada por Christopher Storer. Estreou no FX on Hulu em 23 de junho de 2022, com
+                Jeremy Allen White, Ebon Moss-Bachrach, Ayo Edebiri, Lionel Boyce, Liza Colón-Zayas, e Abby Elliott
+                no
+                elenco. A série
+                recebeu
+                elogios da crítica. Em 14 de julho de 2022, foi renovada para uma segunda temporada, estreada a 22
+                de
+                junho de 2023. A série foi renovada para uma terceira temporada em finais de 2023, que foi lançada
+                em 26
+                de
+                junho de 2024. Antes da estreia da terceira temporada, o programa foi renovado para uma quarta
+                temporada,
+                que foi filmada junto com a terceira temporada. The Bear foi indicada 36 vezes ao Emmy, ganhando 10
+                estatuetas.</p>
+
+            <p>A série é inspirada no restaurante Mr. Beef, localizado em Chicago, Estados Unidos.</p>
+
+            <section id="Sinopse"></section>
+            <h2> Sinopse</h2>
+            <p>Um jovem chef do mundo de refeições requintadas chega em casa em Chicago para administrar a loja de
+                sanduíche de carne italiana de sua família após o suicídio de seu irmão mais velho, que deixou
+                dívidas
+                para trás, uma cozinha em ruínas e uma equipe indisciplinada.</p>
+            </section>
+            <section id="Elenco">
+                <h2>Elenco</h2>
+                <h3 id="Principal">Principal</h3>
+                <ul>
+                    <li><a href="#" title="Jeremy Allen White">Jeremy Allen White</a> como Carmen "Carmy" Berzatto
+                    </li>
+                    <li><a href="#" title="Ebon Moss-Bachrach">Ebon Moss-Bachrach</a> como Richard "Richie"
+                        Jerimovich
+                    </li>
+                    <li><a href="#" title="Ayo Edebiri">Ayo Edebiri</a> como Sydney Adamu</li>
+                    <li><a href="#" class="mw-redirect" title="Lionel Boyce">Lionel Boyce</a> como Marcus</li>
+                    <li>Liza Colón-Zayas como Tina</li>
+                    <li><a href="#" title="Abby Elliott">Abby Elliott</a> como Natalie "Sugar" Berzatto</li>
+                </ul>
+                <h3 id="Recorrente">Recorrente</h3>
+                <ul>
+                    <li>Edwin Lee Gibson como Ebraheim</li>
+                    <li>Matty Matheson como Neil Fak</li>
+                    <li>José Cervantes como Angel</li>
+                    <li><a href="#" title="Oliver Platt">Oliver Platt</a> como Cicero</li>
+                    <li>Corey Hendrix como Gary</li>
+                    <li>Richard Esteras como Manny</li>
+                    <li>Chris Witaske como Pete</li>
+                </ul>
+                <h3 id="Estrelas_Convidadas">Estrelas Convidadas</h3>
+                <ul>
+                    <li><a href="#" title="Jon Bernthal">Jon Bernthal</a> como Michael "Mikey" Berzatto</li>
+                    <li><a href="#" title="Joel McHale">Joel McHale</a> como Chef Executivo</li>
+                    <li><a href="#" title="Molly Ringwald">Molly Ringwald</a> como moderador de reunião do Al-Anon
+                    </li>
+                </ul>
+            </section>
+
+            <section id="Episódios">
+                <h2>Episódios</h2>
+                <table class="topoTabela" style="text-align:center; border: 1px solid #a2a9b1">
+                    <tbody style="background-color: #eaecf0">
+                        <tr style="text-align:center">
+                            <th scope="col" rowspan="1" colspan="2" style="padding:0 8px">Temporada</th>
+                            <th scope="col" rowspan="1" colspan="2" style="padding:0 8px">Episódios</th>
+                            <th scope="col" rowspan="1" colspan="1">Originalmente lançado</th>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="background:#24598F; width:10px"></td>
+                            <td colspan="1">1</td>
+                            <td colspan="2">8</td>
+                            <td colspan="1" style="padding:0.2em 0.4em">23 de junho de 2022</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="background:#002D2A;width:10px"></td>
+                            <td colspan="1">2</td>
+                            <td colspan="2">10</td>
+                            <td colspan="1" style="padding:0.2em 0.4em">22 de junho de 2023</td>
+                        </tr>
+                        <tr>
+                            <td scope="row" style="background:#39A96F;width:10px"></td>
+                            <td colspan="1">3</td>
+                            <td colspan="2">10</td>
+                            <td colspan="1" style="padding:0.2em 0.4em">26 de junho de 2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="Lançamento">
+                <h2>Lançamento</h2>
+                <p>The Bear foi lançado no <a href="" title="Disney">Disney+</a> internacionalmente, como no Canadá
+                    em 3
+                    de
+                    agosto de 2022<sup id="citacao_ref-1" class="reference"><a
+                            href="#citacao_nota-1"><span>[</span>1<span>]</span></a></sup>, e na Austrália
+                    e Nova Zelândia em 31 de agosto de 2022.</p>
+            </section>
+
+            <section id="Música">
+                <h2>Música</h2>
+                <p>
+                    <i>The Bear</i> foi elogiado pela crítica por sua trilha sonora de clássicos do rock <a href="#"
+                        title="Rock alternativo">alternativo</a> e <i>mainstream</i> dos anos 1980 e 1990,
+                    escolhidos a
+                    dedo
+                    pelo criador do programa Christopher Storer e pelo produtor executivo Josh Senior. Algumas das
+                    músicas
+                    apresentadas no programa incluem os nativos de Chicago <a href="#" title="Wilco">Wilco</a> com
+                    "Spiders
+                    (Kidsmoke)" e "Via Chicago", "Let Down" do <a href="#" title="Radiohead">Radiohead</a>, "Saint
+                    Dominic's
+                    Preview" de <a href="#" title="Van Morrison">Van Morrison</a>, "Animal" do <a href="#"
+                        title="Pearl Jam">Pearl Jam</a>, "Chicago" de <a href="#" title="Sufjan Stevens">Sufjan
+                        Stevens</a>", "Last Train Home" de <a href="#" title="John Mayer">John Mayer</a>, "New
+                    Noise" de
+                    <a href="#" title="Refused">Refused</a> e "Oh My Heart" de <a href="#" title="R.E.M.">R.E.M.</a>.
+                </p>
+            </section>
+
+            <section id="Recepção">
+                <h2>Recepção</h2>
+                <p>O site <a href="#" title="Agregador de críticas">agregador de críticas</a>
+                    <a href="#" title="Rotten Tomatoes">Rotten Tomatoes</a> relatou um índice de
+                    aprovação de 100% com uma classificação média de 8.5/10, com base em 33 críticas. O consenso dos
+                    críticos do site diz: "Como um sanduíche habilmente confeccionado, <i>The Bear</i> monta uma
+                    mistura
+                    perfeita de ingredientes e os empilha para uma satisfação ideal - e felizmente mantém a crosta
+                    para
+                    um
+                    sabor extra."<sup id="citacao_ref-2" class="reference"><a
+                            href="#citacao_nota-2"><span>[</span>2<span>]</span></a></sup> O <a href="#"
+                        title="Metacritic">Metacritic</a> deu à série uma média ponderada pontuação de 86 em 100 com
+                    base em
+                    20 críticas, indicando "aclamação universal".<sup id="citacao_ref-3" class="reference"><a
+                            href="#citacao_nota-3"><span>[</span>3<span>]</span></a></sup>
+                </p>
+            </section>
+
+
+            <section id="Referências">
+                <h2>Referências</h2>
+                <div class="referencias">
+                    <div class="referencias-colunas">
+                        <ol class="references" role="list">
+                            <li id="citacao_nota-1" role="listitem">
+                                <span class="citacao">
+                                    <a href="#citacao_ref-1" aria-label="Retornar à referência 1"
+                                        title="Retornar à referência 1" accesskey="1">↑ Retornar à referência</a>
+                                </span>
+                                <span class="reference-text">
+                                    <cite class="citation web">Palmer, Roger (11 de julho de 2022).
+                                        <a rel="nofollow" class="external text" target="_blank"
+                                            href="https://whatsondisneyplus.com/fxs-the-bear-coming-soon-to-disney-canada/"
+                                            lang="en">
+                                            «FX's "The Bear" Coming Soon To Disney+ (Canada)»</a>. <i>What's on
+                                            Disney
+                                            Plus</i>
+                                        (em inglês)
+                                        <span class="reference-accessdate">. Consultado em 18 de julho de
+                                            2022</span>
+                                    </cite>
+                                </span>
+                            </li>
+                            <li id="citacao_nota-2" role="listitem">
+                                <span class="citacao">
+                                    <a href="#citacao_ref-2" aria-label="Retornar à referência 2"
+                                        title="Retornar à referência 1" accesskey="1">↑ Retornar à referência</a>
+                                </span>
+                                <span class="reference-text">
+                                    <cite class="citation web">Pedersen, Erik (13 de maio de 2022).
+                                        <a rel="nofollow" class="external text" target="_blank"
+                                            href="https://deadline.com/2022/05/fx-summer-premiere-dates-reservation-dogs-what-we-do-in-the-shadows-the-old-man-the-bear-1235023384/"
+                                            lang="en">
+                                            «FX Summer Premiere Dates: 'Reservation Dogs', 'What We Do In The
+                                            Shadows',
+                                            New
+                                            Series 'The Old Man' &amp; 'The Bear', More». Deadline Hollywood
+                                        </a>.
+                                        <i><a href="/wiki/Deadline_Hollywood" title="Deadline Hollywood"
+                                                lang="en"></a></i>
+                                        <span lang="en">(em inglês)</span>
+                                        <span class="reference-accessdate">. Consultado em 24 de junho de
+                                            2022</span>
+                                    </cite>
+                                </span>
+                            </li>
+                            <li id="citacao_nota-3" role="listitem">
+                                <span class="citacao">
+                                    <a href="#citacao_ref-3" aria-label="Retornar à referência 3"
+                                        title="Retornar à referência 2" accesskey="2">↑ Retornar à referência</a>
+                                </span>
+                                <span class="reference-text">
+                                    <cite class="citation web">Grobar, Matt (31 de maio de 2022).
+                                        <a rel="nofollow" class="external text" target="_blank"
+                                            href="https://deadline.com/video/the-bear-trailer-jeremy-allen-white-stars-in-fx-comedy-series/"
+                                            lang="en">
+                                            «<span style="padding-left:0.2em;">'</span>The Bear' Trailer: Jeremy
+                                            Allen
+                                            White's
+                                            Chef Takes Over Family Sandwich Shop In FX Comedy»
+                                        </a>.
+                                        <i>Deadline Hollywood</i>
+                                        <span lang="en">(em inglês)</span>
+                                        <span class="reference-accessdate">. Consultado em 24 de junho de
+                                            2022</span>
+                                    </cite>
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Ligações_externas">
+                <h2>Ligações Externas</h2>
+                <ul class="ligações">
+                    <li>
+                        <a class="external" href="https://www.fxnetworks.com/shows/the-bear" target="_blank"><i>The
+                                Bear</i></a> no <a href="#Ligações_externas" title="FX">FX</a>
+                    </li>
+                    <li>
+                        <a class="external" href="https://www.hulu.com/series/05eb6a8e-90ed-4947-8c0b-e6536cbddd5f"
+                            target="_blank"><i>The Bear</i></a> no <a href="#Ligações_externas" title="FX">Hulu</a>
+                    </li>
+                    <li>
+                        <a class="external" href="https://www.imdb.com/title/tt14452776/" target="_blank"><i>The
+                                Bear</i></a> no <a href="#Ligações_externas" title="FX">IMDb.</a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+
+        <section class="anchors">
+            <h2>Aspecto</h2>
+            <div class="tam-texto">
+                <form>
+                    <div class="cdx-radio">
+                        <input name="custom-font-size-group" id="font-size-value-0" type="radio" value="0"
+                            class="cdx-radio__input">
+                        <span class="cdx-radio__icon"></span>
+                        <label for="custom-font-size-value-0" class="cdx-radio__label">Pequeno</label>
+                    </div>
+                    <div class="cdx-radio">
+                        <input name="custom-font-size-group" id="font-size-value-1" type="radio" value="1"
+                            class="cdx-radio__input" checked>
+                        <span class="cdx-radio__icon"></span>
+                        <label for="custom-font-size-value-1" class="cdx-radio__label">Padrão</label>
+                    </div>
+                    <div class="cdx-radio">
+                        <input name="custom-font-size-group" id="font-size-value-2" type="radio" value="2"
+                            class="cdx-radio__input">
+                        <label for="custom-font-size-value-2" class="cdx-radio__label">Grande</label>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <ul class="footer-info">
+                <li> Esta página foi editada pela última vez às 01h19min de 2 de setembro de 2024.</li>
+                <li>Este texto é disponibilizado nos termos da licença <a href="#">Atribuição-CompartilhaIgual 4.0
+                        Internacional (CC BY-SA 4.0) da Creative Commons</a>;
+                    pode estar sujeito a condições adicionais.
+                    Para mais detalhes, consulte as <a href="#">condições de
+                        utilização</a>.</li>
+            </ul>
+
+            <ul class="footer-links">
+                <li id="footer-places-privacy"><a href="#">Política
+                        de privacidade</a></li>
+                <li id="footer-places-about"><a href="#">Sobre a Wikipédia</a></li>
+                <li id="footer-places-disclaimers"><a href="#">Avisos gerais</a></li>
+                <li id="footer-places-wm-codeofconduct"><a href="#">Código
+                        de conduta</a></li>
+                <li id="footer-places-developers"><a href="#">Programadores</a></li>
+                <li id="footer-places-statslink"><a href="#">Estatísticas</a></li>
+                <li id="footer-places-cookiestatement"><a href="#">Declaração
+                        sobre ''cookies''</a></li>
+                <li id="footer-places-mobileview"><a href="#">Versão móvel</a></li>
+                <li style="display: none;"><a href="#">Editar configurações da antevisão</a></li>
             </ul>
         </div>
+    </footer>
 
-        <div class="main">
-            
-        </div>
-
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="footer">
-
-    </div>
+    <script src="/assets/js/script.js"></script>
 </body>
+
 </html>
