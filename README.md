@@ -5,7 +5,7 @@
 ## Objetivo
 Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
 
-**[Vizualize a página online](https://4ndradegabriel.github.io/trilha-html-modulo-3/)**
+**[Visualize a página online](https://4ndradegabriel.github.io/trilha-html-modulo-3/)**
 
 ## Desafio
 Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
